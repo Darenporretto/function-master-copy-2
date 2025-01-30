@@ -257,7 +257,7 @@ E: N/A
 */
 function dedup(array) {
     // Return the deduplicated array by creating a new set from array and ise yhe spread operator to convert back to an array 
-    return [...new Set(array)];
+    return [...new Set(array)]; 
 }
 
 //////////////////////////////////////////////////////////////////////
